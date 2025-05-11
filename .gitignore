@@ -1,0 +1,38 @@
+# ignore raw data
+/data/raw/*.json
+/data/processed/*.json
+/data/reports/*.json
+/data/reports/*.csv
+/data/reports/*.xlsx
+/data/reports/*.pdf
+/data/reports/*.docx
+/data/reports/*.doc
+/data/reports/*.ppt
+/data/reports/*.pptx
+/data/reports/*.txt
+/data/reports/*.rtf
+/data/reports/*.html
+data/raw/
+data/processed/
+data/reports/
+*.json
+*.csv
+*.xlsx
+*.pdf
+*.docx
+*.doc
+*.ppt
+*.png
+
+# ignore generated visualizations
+visualizations/*
+
+# ignore standard python files
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+# ignore venv
+venv/
